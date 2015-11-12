@@ -70,7 +70,7 @@ h2 {
 }
 
 .profile #wrapper {
-	padding: 100px 40px 0px;
+	padding: 30px 40px 0;
 	max-width: 600px;
 	margin: 0 auto;
 }
@@ -107,13 +107,20 @@ h2 {
 	  font-style: normal;
 
 }
+.profile .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url("../images/bulb.svg") center no-repeat #34495e;
+    margin: 0 auto 20px auto;
+}
 
 nav.main-nav {
 	padding: 20px 20px 0;
 
 	/*max-width: 600px;*/
 	/*width:100%;*/
-	background: #fff;
+	/*background: #fff;*/
 	background: rgba(255,255,255,.90);
 	margin: 0 auto;
 	text-align: right;
@@ -139,15 +146,15 @@ nav.main-nav a.cta {
 }
 
 #wrapper {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 60px 40px 100px 40px;
 }
 
 #wrapper.home {
-	max-width: 600px;
+	max-width: 700px;
 	margin: 0 auto;
-	padding: 0px 40px 20px 40px;
+	padding: 0 40px 20px 40px;
 }
 
 .home #avatar {
@@ -255,7 +262,7 @@ em, i { font-style: italic; }
 	font: normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #aaa;
 	max-width: 400px;
-	margin-top: 2px;
+	margin-top: 12px;
 }
 
 h3, h4, h5 { color:#333; }
@@ -390,7 +397,9 @@ Post List
 #post-list a {
 	color: #333;
 	display: block;
-	font: bold 19px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
+	font: 26px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
+    font-weight: 300;
+	line-height: 1.4;
 }
 
 #post-list .dates {
@@ -440,7 +449,7 @@ Post List
 }
 
 .post {
-	margin: 80px 0 0 0;
+	/*margin: 50px 0 0 0;*/
 }
 
 #post-meta {

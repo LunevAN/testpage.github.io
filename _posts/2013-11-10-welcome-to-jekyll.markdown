@@ -1,7 +1,7 @@
 ---
-title:  "hello world"
-date:   2013-11-10 10:18:00
-description: Thriller Comedy Horror
+title:  "How to create a food ordering app like JustEat with Stamplay and AngularJS"
+date:   2015-11-12 10:18:00
+description: This time we’re going to be building an online fast-food ordering application, like JustEat.
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
