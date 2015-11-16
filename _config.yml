@@ -2,7 +2,7 @@ name: Yet another blog about frontend
 description: Yet another blog about frontend
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
-aboutPage: false
+aboutPage: true
 
 markdown: redcarpet
 #highlighter: pygments

@@ -1,6 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="68" height="100.062" viewBox="0 0 68 100.062">
   <defs>
     <style>
+      @keyframes container {
+        0% {opacity: 0; transform:translateY(10px);}
+        70% {transform:translateY(0);}
+        100% {opacity: 1;}
+      }
+      .container {
+        animation: container 1.3s ease;
+        transform-origin: 50%;
+      }
       .cls-1 {
         fill: #ecf0f1;
       }
@@ -25,12 +34,35 @@
         fill: #fff;
       }
 
+      @keyframes bulb {
+        0% {transform:translateY(-2px);}
+        12.5% {transform:translateY(-1px) translateX(-2px);}
+        25% {transform:translateX(-3px);}
+        37.5% {transform:translateY(1px) translateX(-2px);}
+        50% {transform:translateY(2px);}
+        62.5% {transform:translateY(1px) translateX(2px);}
+        75% {transform:translateX(3px);}
+        87.5% {transform:translateY(-1px) translateX(2px);}
+        100% {transform:translateY(-2px);}
+      }
+
       .cls-6 {
+        animation: bulb 8s infinite linear;
         filter: url(#drop-shadow-1);
         fill-opacity: 0.3;
       }
 
+      @keyframes gas {
+        0% {opacity: 0; transform:translateY(4px) scale(.8);}
+        70% {transform:translateY(0);}
+        100% {opacity: 1;}
+      }
+
       .cls-7 {
+        opacity: 0;
+        transform-origin: 50%;
+        animation: gas 1s .6s ease;
+        animation-fill-mode: forwards;
         fill-opacity: 0.5;
       }
     </style>
@@ -43,7 +75,7 @@
       <feComposite in="SourceGraphic" result="shadowed"/>
     </filter>
   </defs>
-  <g>
+  <g class="container">
     <path d="M68.000,84.062 C68.000,89.793 64.071,100.134 64.079,99.928 C64.086,99.723 3.962,100.006 3.962,100.006 C3.962,100.006 0.000,89.824 0.000,84.062 C0.000,68.401 10.592,55.222 25.000,51.275 L25.000,28.062 L43.000,28.062 L43.000,51.275 C57.408,55.222 68.000,68.401 68.000,84.062 Z" class="cls-1"/>
     <path d="M57.638,70.062 C60.396,74.399 62.000,79.542 62.000,85.062 C62.000,90.609 57.000,100.062 57.000,100.062 L10.000,100.062 C10.000,100.062 6.000,90.587 6.000,85.062 C6.000,79.542 7.604,74.399 10.362,70.062 L57.638,70.062 Z" class="cls-2"/>
     <path d="M17.017,64.422 C26.390,59.934 41.587,59.934 50.960,64.422 C60.333,68.912 60.333,76.190 50.960,80.679 C41.587,85.168 26.390,85.168 17.017,80.679 C7.643,76.190 7.643,68.912 17.017,64.422 Z" class="cls-3"/>

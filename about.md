@@ -1,9 +1,9 @@
 ---
 title: About
 permalink: about/
-profile: true
+header: true
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+Добро пожаловать на очередной сайт, посвященный фронтенду ;)
 
 {% include footer.html %}
