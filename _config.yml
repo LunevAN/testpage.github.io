@@ -21,6 +21,9 @@ author:         'Anton Lunev'
 
 permalink:       /:year/:title/
 
+sass:
+    style: compressed
+
 defaults:
     -
         scope:
