@@ -1,1 +1,3 @@
-# Yet another blog about frontend
+# My blog
+
+Maybe will write some articles
